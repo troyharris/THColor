@@ -10,4 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) IBOutlet UITextField *colorInput;
+
+-(IBAction)changeColor;
+
 @end

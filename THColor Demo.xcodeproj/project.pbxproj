@@ -24,6 +24,8 @@
 		2A2A8F7A174930DA00D00631 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2A8F52174930DA00D00631 /* Foundation.framework */; };
 		2A2A8F82174930DA00D00631 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A2A8F80174930DA00D00631 /* InfoPlist.strings */; };
 		2A2A8F85174930DA00D00631 /* TempAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A8F84174930DA00D00631 /* TempAppTests.m */; };
+		2A2A8F91174AD7A200D00631 /* UIColor+THColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A2A8F90174AD7A200D00631 /* UIColor+THColor.m */; };
+		30D193F52D0044D08505268B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D392EF3F5CE04D52972D23B6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,14 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A2A8F4D174930DA00D00631 /* TempApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2A8F4D174930DA00D00631 /* THColor Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "THColor Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A2A8F50174930DA00D00631 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2A2A8F52174930DA00D00631 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2A2A8F54174930DA00D00631 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2A2A8F58174930DA00D00631 /* TempApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TempApp-Info.plist"; sourceTree = "<group>"; };
+		2A2A8F58174930DA00D00631 /* THColor Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "THColor Demo-Info.plist"; sourceTree = "<group>"; };
 		2A2A8F5A174930DA00D00631 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2A2A8F5C174930DA00D00631 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2A2A8F5E174930DA00D00631 /* TempApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TempApp-Prefix.pch"; sourceTree = "<group>"; };
+		2A2A8F5E174930DA00D00631 /* THColor Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "THColor Demo-Prefix.pch"; sourceTree = "<group>"; };
 		2A2A8F5F174930DA00D00631 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2A2A8F60174930DA00D00631 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2A2A8F62174930DA00D00631 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -54,12 +56,16 @@
 		2A2A8F69174930DA00D00631 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2A2A8F6C174930DA00D00631 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		2A2A8F6F174930DA00D00631 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
-		2A2A8F76174930DA00D00631 /* TempAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2A8F76174930DA00D00631 /* THColor DemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "THColor DemoTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A2A8F77174930DA00D00631 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		2A2A8F7F174930DA00D00631 /* TempAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TempAppTests-Info.plist"; sourceTree = "<group>"; };
+		2A2A8F7F174930DA00D00631 /* THColor DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "THColor DemoTests-Info.plist"; sourceTree = "<group>"; };
 		2A2A8F81174930DA00D00631 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2A2A8F83174930DA00D00631 /* TempAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TempAppTests.h; sourceTree = "<group>"; };
 		2A2A8F84174930DA00D00631 /* TempAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempAppTests.m; sourceTree = "<group>"; };
+		2A2A8F8F174AD7A200D00631 /* UIColor+THColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+THColor.h"; sourceTree = "<group>"; };
+		2A2A8F90174AD7A200D00631 /* UIColor+THColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+THColor.m"; sourceTree = "<group>"; };
+		982F30A43E404EE984986B30 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		D392EF3F5CE04D52972D23B6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,7 @@
 				2A2A8F51174930DA00D00631 /* UIKit.framework in Frameworks */,
 				2A2A8F53174930DA00D00631 /* Foundation.framework in Frameworks */,
 				2A2A8F55174930DA00D00631 /* CoreGraphics.framework in Frameworks */,
+				30D193F52D0044D08505268B /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,18 +96,20 @@
 		2A2A8F44174930DA00D00631 = {
 			isa = PBXGroup;
 			children = (
-				2A2A8F56174930DA00D00631 /* TempApp */,
+				2A2A8F8E174AD77500D00631 /* THColor */,
+				2A2A8F56174930DA00D00631 /* THColor Demo */,
 				2A2A8F7D174930DA00D00631 /* TempAppTests */,
 				2A2A8F4F174930DA00D00631 /* Frameworks */,
 				2A2A8F4E174930DA00D00631 /* Products */,
+				982F30A43E404EE984986B30 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
 		2A2A8F4E174930DA00D00631 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A2A8F4D174930DA00D00631 /* TempApp.app */,
-				2A2A8F76174930DA00D00631 /* TempAppTests.octest */,
+				2A2A8F4D174930DA00D00631 /* THColor Demo.app */,
+				2A2A8F76174930DA00D00631 /* THColor DemoTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,11 +121,12 @@
 				2A2A8F52174930DA00D00631 /* Foundation.framework */,
 				2A2A8F54174930DA00D00631 /* CoreGraphics.framework */,
 				2A2A8F77174930DA00D00631 /* SenTestingKit.framework */,
+				D392EF3F5CE04D52972D23B6 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2A2A8F56174930DA00D00631 /* TempApp */ = {
+		2A2A8F56174930DA00D00631 /* THColor Demo */ = {
 			isa = PBXGroup;
 			children = (
 				2A2A8F5F174930DA00D00631 /* AppDelegate.h */,
@@ -127,16 +137,17 @@
 				2A2A8F6E174930DA00D00631 /* ViewController_iPad.xib */,
 				2A2A8F57174930DA00D00631 /* Supporting Files */,
 			);
+			name = "THColor Demo";
 			path = TempApp;
 			sourceTree = "<group>";
 		};
 		2A2A8F57174930DA00D00631 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2A2A8F58174930DA00D00631 /* TempApp-Info.plist */,
+				2A2A8F58174930DA00D00631 /* THColor Demo-Info.plist */,
 				2A2A8F59174930DA00D00631 /* InfoPlist.strings */,
 				2A2A8F5C174930DA00D00631 /* main.m */,
-				2A2A8F5E174930DA00D00631 /* TempApp-Prefix.pch */,
+				2A2A8F5E174930DA00D00631 /* THColor Demo-Prefix.pch */,
 				2A2A8F62174930DA00D00631 /* Default.png */,
 				2A2A8F64174930DA00D00631 /* Default@2x.png */,
 				2A2A8F66174930DA00D00631 /* Default-568h@2x.png */,
@@ -157,35 +168,46 @@
 		2A2A8F7E174930DA00D00631 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2A2A8F7F174930DA00D00631 /* TempAppTests-Info.plist */,
+				2A2A8F7F174930DA00D00631 /* THColor DemoTests-Info.plist */,
 				2A2A8F80174930DA00D00631 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2A2A8F8E174AD77500D00631 /* THColor */ = {
+			isa = PBXGroup;
+			children = (
+				2A2A8F8F174AD7A200D00631 /* UIColor+THColor.h */,
+				2A2A8F90174AD7A200D00631 /* UIColor+THColor.m */,
+			);
+			name = THColor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2A2A8F4C174930DA00D00631 /* TempApp */ = {
+		2A2A8F4C174930DA00D00631 /* THColor Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A2A8F88174930DA00D00631 /* Build configuration list for PBXNativeTarget "TempApp" */;
+			buildConfigurationList = 2A2A8F88174930DA00D00631 /* Build configuration list for PBXNativeTarget "THColor Demo" */;
 			buildPhases = (
+				8EAA2F97E2234E6FB67BB94B /* Check Pods Manifest.lock */,
 				2A2A8F49174930DA00D00631 /* Sources */,
 				2A2A8F4A174930DA00D00631 /* Frameworks */,
 				2A2A8F4B174930DA00D00631 /* Resources */,
+				A5685367B9B14E6B8A641C6D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TempApp;
+			name = "THColor Demo";
 			productName = TempApp;
-			productReference = 2A2A8F4D174930DA00D00631 /* TempApp.app */;
+			productReference = 2A2A8F4D174930DA00D00631 /* THColor Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2A2A8F75174930DA00D00631 /* TempAppTests */ = {
+		2A2A8F75174930DA00D00631 /* THColor DemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A2A8F8B174930DA00D00631 /* Build configuration list for PBXNativeTarget "TempAppTests" */;
+			buildConfigurationList = 2A2A8F8B174930DA00D00631 /* Build configuration list for PBXNativeTarget "THColor DemoTests" */;
 			buildPhases = (
 				2A2A8F71174930DA00D00631 /* Sources */,
 				2A2A8F72174930DA00D00631 /* Frameworks */,
@@ -197,9 +219,9 @@
 			dependencies = (
 				2A2A8F7C174930DA00D00631 /* PBXTargetDependency */,
 			);
-			name = TempAppTests;
+			name = "THColor DemoTests";
 			productName = TempAppTests;
-			productReference = 2A2A8F76174930DA00D00631 /* TempAppTests.octest */;
+			productReference = 2A2A8F76174930DA00D00631 /* THColor DemoTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +233,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Lone Yeti";
 			};
-			buildConfigurationList = 2A2A8F48174930DA00D00631 /* Build configuration list for PBXProject "TempApp" */;
+			buildConfigurationList = 2A2A8F48174930DA00D00631 /* Build configuration list for PBXProject "THColor Demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,8 +245,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A2A8F4C174930DA00D00631 /* TempApp */,
-				2A2A8F75174930DA00D00631 /* TempAppTests */,
+				2A2A8F4C174930DA00D00631 /* THColor Demo */,
+				2A2A8F75174930DA00D00631 /* THColor DemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,6 +289,34 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		8EAA2F97E2234E6FB67BB94B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		A5685367B9B14E6B8A641C6D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -277,6 +327,7 @@
 				2A2A8F5D174930DA00D00631 /* main.m in Sources */,
 				2A2A8F61174930DA00D00631 /* AppDelegate.m in Sources */,
 				2A2A8F6A174930DA00D00631 /* ViewController.m in Sources */,
+				2A2A8F91174AD7A200D00631 /* UIColor+THColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +344,7 @@
 /* Begin PBXTargetDependency section */
 		2A2A8F7C174930DA00D00631 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2A2A8F4C174930DA00D00631 /* TempApp */;
+			target = 2A2A8F4C174930DA00D00631 /* THColor Demo */;
 			targetProxy = 2A2A8F7B174930DA00D00631 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -394,22 +445,24 @@
 		};
 		2A2A8F89174930DA00D00631 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 982F30A43E404EE984986B30 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TempApp/TempApp-Prefix.pch";
-				INFOPLIST_FILE = "TempApp/TempApp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TempApp/THColor Demo-Prefix.pch";
+				INFOPLIST_FILE = "TempApp/THColor Demo-Info.plist";
+				PRODUCT_NAME = "THColor Demo";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		2A2A8F8A174930DA00D00631 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 982F30A43E404EE984986B30 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TempApp/TempApp-Prefix.pch";
-				INFOPLIST_FILE = "TempApp/TempApp-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "TempApp/THColor Demo-Prefix.pch";
+				INFOPLIST_FILE = "TempApp/THColor Demo-Info.plist";
+				PRODUCT_NAME = "THColor Demo";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -424,8 +477,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TempApp/TempApp-Prefix.pch";
-				INFOPLIST_FILE = "TempAppTests/TempAppTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TempAppTests/THColor DemoTests-Info.plist";
+				PRODUCT_NAME = "THColor DemoTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -441,8 +494,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TempApp/TempApp-Prefix.pch";
-				INFOPLIST_FILE = "TempAppTests/TempAppTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "TempAppTests/THColor DemoTests-Info.plist";
+				PRODUCT_NAME = "THColor DemoTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -451,7 +504,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A2A8F48174930DA00D00631 /* Build configuration list for PBXProject "TempApp" */ = {
+		2A2A8F48174930DA00D00631 /* Build configuration list for PBXProject "THColor Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A2A8F86174930DA00D00631 /* Debug */,
@@ -460,21 +513,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A2A8F88174930DA00D00631 /* Build configuration list for PBXNativeTarget "TempApp" */ = {
+		2A2A8F88174930DA00D00631 /* Build configuration list for PBXNativeTarget "THColor Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A2A8F89174930DA00D00631 /* Debug */,
 				2A2A8F8A174930DA00D00631 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		2A2A8F8B174930DA00D00631 /* Build configuration list for PBXNativeTarget "TempAppTests" */ = {
+		2A2A8F8B174930DA00D00631 /* Build configuration list for PBXNativeTarget "THColor DemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A2A8F8C174930DA00D00631 /* Debug */,
 				2A2A8F8D174930DA00D00631 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,12 +7,17 @@
 //
 
 #import "ViewController.h"
+#import "UIColor+THColor.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+
+-(IBAction)changeColor {
+    self.view.backgroundColor = [UIColor colorFromHex:_colorInput.text withAlpha:1.0];
+}
 
 - (void)viewDidLoad
 {
